@@ -22,7 +22,7 @@ class Diary:
 class DiaryBook:
     def __init__(self):
         self.diaries = []
-        # self.user = User()
+       
 
     def new_diary(self, email, password, memo, tags):
         new_diary = Diary(memo, tags)
@@ -42,7 +42,7 @@ class DiaryBook:
                     filtered_list.append(diary)
 
         return filtered_list
-        # filtered_list=[diary for diary in self.diaries if diary.match(filter_text)]
+      
 
 
 
